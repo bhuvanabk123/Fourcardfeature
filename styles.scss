@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,400,600&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: hsl(229, 6%, 66%);
+    background-color: hsl(0, 0%, 98%);
+    
+    p {
+        font-size: 15px;
+    }
+    h1, h4 {
+        font-size: 123%;
+    color: #4c4e61;
+    margin: 23px 0 0 0;
+    }
+}
+
+header {
+    margin: 83px 35px 75px;
+    text-align: center;
+    .title {
+        font-weight: 200;
+    }
+    h1 {
+        font-size: 153%;
+
+    }
+    
+}
+
+.row {
+    display: block;
+    margin: 81px 33px;
+    .card {
+        background-color: #ffffff;
+        box-shadow: 0 34px 38px 0 HSLA(229, 6%, 66%, 0.3);
+        transition: 0.3s;
+        border-radius: 5px;
+        margin-bottom: 25px;
+        
+        .container {
+            margin: 0px 27px;
+            padding: 0 0 1px;
+
+
+            p {
+            font-size: 81%;
+            margin-top: 2px;
+            margin-bottom: 31px;
+            line-height: 24px;
+            }
+            .icons {
+                text-align: right;
+                margin-bottom: 21px;
+                .icon-imgs {
+                    width: 57px;
+                }
+            }
+          }
+      }
+      .border-top-color-cyan {
+        border-top: 3px solid hsl(180, 62%, 55%);
+       
+}
+
+.border-top-color-red {
+    border-top: 3px solid hsl(0, 78%, 62%);
+}
+
+.border-top-color-orange {
+    border-top: 3px solid hsl(34, 97%, 64%);
+}
+
+.border-top-color-blue {
+    border-top: 3px solid hsl(212, 86%, 64%);
+    
+}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    main {
+        width: 100%;
+        max-width: 1175px;
+        margin: 0 auto;
+        
+        .header {
+            width: 600px;
+            margin: auto;
+            h1 {
+                font-size: 228%;
+    line-height: 49px;
+            }
+        }
+        .row {
+            display: flex;
+            align-items: center;
+            .middle {
+                display: flex;
+                flex-flow: column wrap;
+                margin: 0 25px;
+                align-content: center;
+      
+            }
+
+            .card {
+                max-width: 355px;
+            }
+        }
+    }
+}
+
+footer {
+    margin: 15px 35px;
+    text-align: center;
+    
+}
+
+
+
+
